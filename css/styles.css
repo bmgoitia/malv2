@@ -67,6 +67,11 @@ body{
     font-size: 1rem;
 }
 
+#lv_head1 h3{
+  font-size: 1.1rem;
+}
+
+
 .main h5{
     font-size: .7rem;
 }
