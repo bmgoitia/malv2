@@ -15,7 +15,7 @@ window.onload = function() {
 
      $('.lv_op').click(function(){
         var mId = $(this).attr('id');
-        console.log(mId)
+        
         if(mId == "op_12"){
            
             $( "#op_11" ).removeClass( "op_active" );
