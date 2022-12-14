@@ -2,7 +2,8 @@
 
 body{
     margin: 0 auto;
-    font-family: 'Bitter', serif;
+    /* font-family: 'Bitter', serif; */
+    font-family: 'Roboto', sans-serif;
     max-width: 550px;
    
    }
@@ -29,10 +30,11 @@ body{
 }
 
 .lv_header h1{
-    font-size: 1.4rem; 
+    font-size: 1.6rem; 
+    font-weight: 600;
 }
 
-.lv_header, .comm{
+.comm{
     background-color: #001c4c;
     color: #fff;
 }
@@ -64,13 +66,8 @@ body{
 .main h3{
     padding-top: 25px;
     padding-bottom: 15px;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
-
-#lv_head1 h3{
-  font-size: 1.1rem;
-}
-
 
 .main h5{
     font-size: .7rem;
@@ -136,16 +133,21 @@ body{
 }
 
 
+
 .op_active{  
     background-color: #001c4c;
     color:#fff;
+}
+
+.initial{
+    font-weight:900;
+    
 }
 
 
 .lv_op p{
     margin-bottom: 0;
     
-
 }
 
 .lv_op p:hover{
